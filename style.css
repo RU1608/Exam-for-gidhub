@@ -1066,3 +1066,17 @@ body {
     flex-direction: column;
     text-align: center;
   }
+.experts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+}
