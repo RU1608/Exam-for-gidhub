@@ -68,3 +68,148 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   width: fit-content;
 }
+
+.btn-blue:hover {
+  background: #2563eb;
+}
+
+.btn-green {
+  background: #22c55e;
+  color: white;
+}
+
+.btn-green:hover {
+  background: #16a34a;
+}
+
+.full {
+  width: 100%;
+}
+
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.navbar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.burger {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: left;
+}
+
+.hero-content h1 {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: #14b8a6;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.hero-text-desktop {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.hero-text-mobile {
+  display: none;
+  margin-top: 16px;
+}
+
+.date {
+  background: white;
+  color: #07AF91;
+  font-weight: bold;
+  padding: 2px 6px;
+}
+
+
+
+.service-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 64px;
+}
+
+.service-text {
+  width: 500px;
+}
+
+.service-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 16px;
+}
+
+.service-text p {
+  color: #4b5563;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.service-img img {
+  width: 400px;
+}
