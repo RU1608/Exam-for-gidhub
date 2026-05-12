@@ -984,3 +984,22 @@ body {
   color: #d1d5db;
   text-align: right;
 }
+
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .hero-content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+  
