@@ -1002,4 +1002,15 @@ body {
   .hero-content h1 {
     font-size: 40px;
   }
-  
+   .hero-text-desktop {
+    display: none;
+  }
+
+  .hero-text-mobile {
+    display: block;
+  }
+
+  .service-block {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
