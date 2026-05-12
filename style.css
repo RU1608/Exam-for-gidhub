@@ -1096,3 +1096,7 @@ body {
    .partners-grid {
      grid-template-columns: 1fr;
   }
+   .experts-grid {
+    grid-template-columns: 1fr;
+  }
+}
