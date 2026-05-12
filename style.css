@@ -1031,3 +1031,20 @@ body {
   .markets-grid {
     grid-template-columns: 1fr;
   }
+   .markets-vector {
+    width: 350px;
+    height: auto;
+  }
+
+  .investors-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
