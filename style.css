@@ -1048,3 +1048,21 @@ body {
   .events-grid {
     grid-template-columns: 1fr;
   }
+ .questions-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .messengers {
+    justify-content: center;
+  }
+
+  .who-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .founder-card {
+    flex-direction: column;
+    text-align: center;
+  }
