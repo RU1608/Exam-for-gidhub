@@ -1014,3 +1014,20 @@ body {
     flex-direction: column-reverse;
     text-align: center;
   }
+
+  .service-text {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .markets-grid {
+    grid-template-columns: 1fr;
+  }
