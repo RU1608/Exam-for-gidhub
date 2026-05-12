@@ -804,3 +804,183 @@ body {
 .event-body {
   padding: 16px;
 }
+
+.event-body h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-body p {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  color: #9ca3af;
+}
+
+.questions {
+  padding: 70px 0;
+  background: #2563eb;
+  background-image: url("./photo/pattern.png");
+  background-size: cover;
+  color: white;
+}
+
+.questions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.questions-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.questions-left p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.write-us {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.messengers {
+  display: flex;
+  gap: 20px;
+}
+
+.messenger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.messenger-icon {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messenger-icon img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+  outline: none;
+  margin-bottom: 18px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d1d5db;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
+}
+
+.arrow-down {
+  margin-right: 10px;
+  color: #6b7280;
+}
+
+.code {
+  margin-right: 10px;
+  color: #374151;
+}
+
+.flag {
+  width: 20px;
+  margin-right: 10px;
+}
+
+
+.footer {
+  position: relative;
+  padding: 24px 0;
+}
+
+.footer-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.footer-content {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-logo {
+  font-weight: bold;
+}
+
+.blue {
+  color: #60a5fa;
+}
+
+.small {
+  font-size: 12px;
+  color: #d1d5db;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  font-size: 12px;
+  color: #d1d5db;
+  text-align: right;
+}
