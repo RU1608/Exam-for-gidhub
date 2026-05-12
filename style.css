@@ -1094,3 +1094,5 @@ body {
     font-size: 18px;
   }
    .partners-grid {
+     grid-template-columns: 1fr;
+  }
